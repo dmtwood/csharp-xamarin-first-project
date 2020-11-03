@@ -21,8 +21,8 @@
             
             <!-- CheckBox element here -->
             <Label Text="Completed" />
-            <CheckBox IsChecked="{Binding Item.isCompleted}" />
-            
+            <CheckBox IsChecked="{Binding Item.IsCompleted}"/>
+
         </StackLayout>
     </ContentPage.Content>
     
