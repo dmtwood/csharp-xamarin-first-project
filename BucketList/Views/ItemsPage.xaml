@@ -41,7 +41,7 @@
                             <CheckBox IsChecked="{Binding IsCompleted}" Margin="10,0,0,0"/>
                             
                             <!-- Add StackLayout element here -->
-                            <StackLayout Orientation="Horizontal"> 
+                            <StackLayout Padding="10" Orientation="Horizontal"> 
                             <Label Text="{Binding Text}" 
                                     d:Text="{Binding .}"
                                     LineBreakMode="NoWrap" 
