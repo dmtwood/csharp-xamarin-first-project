@@ -36,7 +36,7 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Padding="10">
+                        <StackLayout >
                             <!-- Add CheckBox element here -->
                             <CheckBox IsChecked="{Binding IsCompleted}" Margin="10,0,0,0"/>
                             
