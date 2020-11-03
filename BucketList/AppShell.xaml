@@ -34,16 +34,12 @@
     <FlyoutItem FlyoutDisplayOptions="AsSingleItem" Title="Bucket List">                <!-- <TabBar> -->
         <Tab Title="List" Icon="tab_feed.png">
             <local:ItemsPage />
+            <local:NewItemPage />
         </Tab>
 
         <!-- Add MissionPage element here -->
         <ShellContent ContentTemplate="{DataTemplate local:MissionPage}" />
         
-        <!-- <local:MissionPage /> -->
-        <Tab Title="List" Icon="tab_feed.png">
-            <local:ItemsPage />
-            <local:NewItemPage />
-        </Tab>
 
     </FlyoutItem> 
     
