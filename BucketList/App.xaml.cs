@@ -14,7 +14,7 @@ namespace BucketList
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new MainPage();
+            MainPage = new AppShell();     // new MainPage();
         }
 
         protected override void OnStart()
